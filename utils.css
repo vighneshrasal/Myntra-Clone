@@ -1,3 +1,11 @@
+li{
+    list-style: none;
+}
+
+#setThisWidth{
+    width: 15rem;
+}
+
 .flex{
     display: flex;
 }
@@ -6,7 +14,7 @@
     margin: 0 1rem;
 }
 
-.headings{
+.headings{          
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 1.50rem; color: rgb(66, 66, 66);
     margin-left: 2.5rem; padding-bottom: 2rem; padding-top: 2rem;
 }
@@ -46,4 +54,22 @@
 
 .category img{
     width: auto;
+}
+
+footer{
+    padding-top: 5rem; padding-bottom: 4rem;
+    margin: 0 10vw; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div-margin{
+    margin-right: 4rem;
+}
+
+footer li{
+    color: rgb(109, 109, 109); font-size: 15px; padding: 2px 0;
+}
+
+span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(39, 39, 39); font-size: 13px; font-weight: bold;
 }
