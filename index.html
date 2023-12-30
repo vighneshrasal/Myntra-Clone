@@ -1,30 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Shopping for Women, Men, Kids Fashion &amp; Lifestyle - Myntra</title>
     <link rel="stylesheet" href="utils.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="myntra-icon.png" type="image/x-icon">
 </head>
+
 <body>
     <header class="container">
-        <nav class="flex space-around">
+        <nav class="flex space-between">
             <div class="left flex items-center">
                 <img src="myntra-logo.png" alt="">
                 <ul class="flex uppercase semibold">
                     <li>Men</li>
                     <li>Women</li>
                     <li>Kids</li>
-                    <li>Home and Living</li>
+                    <li>Home & Living</li>
                     <li>Beauty</li>
-                    <li>Studio</li>
+                    <li>Studio <sup>NEW</sup></li>
                 </ul>
             </div>
-            <div class="right flex">
-                <input type="text">
+            <div class="right flex items-center">
+                <i></i>
+                <input type="text" class="search" placeholder="Search for products, brands and more"
+                    onclick="searchBar()">
+                <div class="profile mx-2">Profile</div>
+                <div class="wishlist mx-2">Wishlist</div>
+                <div class="bag mx-2">Bag</div>
             </div>
         </nav>
     </header>
+    <section class="section">
+        <div class="home-images">
+            <img src="home-page-image-1.png" alt="">
+        </div>
+    </section>
+    <h1 class="headings">SHOP BY CATEGORY</h1>
+    <section class="section">
+        <div class="category">
+            <img src="cat1.png" alt="" class="margin">
+            <img src="cat2.png" alt="" class="margin">
+            <img src="cat3.png" alt="" class="margin">
+        </div>
+    </section>
 </body>
+
 </html>
