@@ -11,24 +11,24 @@
 </head>
 
 <body>
-    <header class="container">
+    <header class="container user-select-none">
         <nav class="flex space-between">
             <div class="left flex items-center">
-                <img src="myntra-logo.png" alt="">
+                <a href=""><img src="myntra-logo.png" alt=""></a>
                 <ul class="flex uppercase semibold">
-                    <li>Men</li>
-                    <li>Women</li>
-                    <li>Kids</li>
-                    <li>Home & Living</li>
-                    <li>Beauty</li>
-                    <li>Studio <sup>NEW</sup></li>
+                    <a id="men" href=""><li>Men</li></a>
+                    <a id="women" href=""><li>Women</li></a>
+                    <a id="kids" href=""><li>Kids</li></a>
+                    <a id="HnL" href=""><li>Home & Living</li></a>
+                    <a id="beauty" href=""><li>Beauty</li></a>
+                    <a id="studio" href=""><li>Studio <sup>NEW</sup></li></a>
                 </ul>
             </div>
             <div class="right flex items-center">
-                <input type="text" class="search" placeholder="Search for products, brands and more">
-                <div class="profile mx-2">Profile</div>
-                <div class="wishlist mx-2">Wishlist</div>
-                <div class="bag mx-2">Bag</div>
+                <input type="text" class="search" placeholder="Search for products, brands and more" id="search-input">
+                <div class="profile mx-2" id="profile-div"><img src="profile-icon.png" alt="" id="profile"><p>Profile</p></div>
+                <a href=""><div class="wishlist mx-2"><img src="heart-icon.png" alt="" id="heart"><p>Wishlist</p></div></a>
+                <a href=""><div class="bag mx-2"><img src="bag-icon.png" alt="" id="bag"><p>Bag</p></div></a>
             </div>
         </nav>
     </header>
@@ -37,6 +37,7 @@
             <img src="home-page-image-1.png" alt="">
         </div>
     </section>
+    
     <h1 class="headings">MEDAL WORTHY BRANDS TO BAG</h1>
     <section class="section">
         <img src="medal-worthy-brands-1.png" alt="">
@@ -48,12 +49,10 @@
     <h1 class="headings">SHOP BY CATEGORY</h1>
     <section class="section">
         <div class="category">
-            <img src="cat1.png" alt="" class="margin">
-            <img src="cat2.png" alt="" class="margin">
-            <img src="cat3.png" alt="" class="margin">
-            <img src="cat4.png" alt="" class="margin">
-            <img src="cat5.png" alt="" class="margin">
-            <img src="cat6.png" alt="" class="margin">
+            <img src="cat1.png" alt="">
+            <img src="cat2.png" alt="">
+            <img src="cat3.png" alt="">
+            <img src="cat4.png" alt="">
         </div>
     </section>
     <footer>
@@ -124,6 +123,35 @@
                     </div>
                 </div>
             </div>
+        </div><br>
+
+        <div class="footer-level-2">
+            <hr class="popular-search hr">
+            <h3 id="popular-searches">POPULAR SEARCHES</h3>
+            <br><br>
+<p>Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men | Handbags | Ladies Watches | Bags | Sports Shoes |
+Reebok Shoes | Puma Shoes | Boxers | Wallets | Tops | Earrings | Fastrack Watches | Kurtis | Nike | Smart Watches | Titan Watches | Designer Blouse | 
+Gowns | Rings Cricket Shoes | Forever 21 | Eye Makeup | Photo Frames | Punjabi Suits | Bikini | Myntra Fashion Show | Lipstick | Saree | Watches | 
+Dresses | Lehenga | Nike Shoes | Goggles | Bras | Suit | Chinos | Shoes | Adidas Shoes | Woodland Shoes | Jewellery | Designer Sarees 
+</p>
+        <br><br>
+        <div class="flex space-between">
+            <p>In case of any concern, <a href="" class="contact-us">Contact Us</a></p>
+            <p>&copy; 2024 www.myntra.com.&nbsp;All rights reserved</p>
+            <p>A Flipkart Company</p>
+        </div>
+        <br>
+        <hr class="hr">
+        </div><br>
+
+        <div class="footer-disclaimer">
+            <h3>DISCLAIMER</h3><br>
+<p>This website is made by Vighnesh Rasal and is not the real Myntra website.
+This website is a clone made for R&D purpose and is not meant to replace or act as decoy for the original.  
+</p><br>
+        <div class="vighnesh flex">
+           <a href="https://www.linkedin.com/in/vighnesh-rasal/" class="flex" target="_blank"><img src="vighnesh.jpg" alt=""><p>Vighnesh Rasal</p></a>
+        </div>
         </div>
     </footer>
 </body>
