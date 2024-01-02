@@ -79,11 +79,11 @@ a{
 }
 
 .home-images img{
-    height: auto; width: auto; 
+    height: auto; width: 100%;
 }
 
 .category img{
-    width: auto;
+    width: 100%;
     padding-bottom: 2rem;
 }
 
